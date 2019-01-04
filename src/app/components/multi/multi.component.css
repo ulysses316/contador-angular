@@ -1,0 +1,39 @@
+.comp-2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 30px;
+    margin-top: 30px;
+    height: 25vh;
+    align-items: center;
+}
+
+.multi{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 30px;
+}
+
+.divi{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 30px;
+}
+
+.numeros{
+    border: 0.5px solid #777a7d;
+    border-radius: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+    .comp-2{
+        grid-template-columns: none;
+        grid-template-rows: 1fr 1fr;
+    }
+    .multi{
+        grid-gap: 15px;
+    }
+    
+    .divi{
+        grid-gap: 15px;
+    }
+  }

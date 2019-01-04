@@ -1,0 +1,40 @@
+.comp-1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 25vh;
+    align-items: center;
+    margin-top: 20px;
+    grid-gap: 30px;
+}
+.suma{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 30px;
+}
+
+.resta{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 30px;
+}
+
+.numero{
+    border: 0.5px solid #777a7d;
+    border-radius: 5px;
+    padding: 0 5px 0 5px; 
+}
+
+@media only screen and (max-width: 600px) {
+    .comp-1{
+        grid-template-columns: none;
+        grid-template-rows: 1fr 1fr;
+    }
+    .suma{
+        grid-gap: 15px;
+    }
+    
+    .resta{
+        grid-gap: 15px;
+    }
+  }
+  
