@@ -11,5 +11,4 @@ export class SumaComponent {
 
   numero: number = 5600;
 
-
 }

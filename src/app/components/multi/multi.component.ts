@@ -5,11 +5,8 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './multi.component.html',
   styleUrls: ['./multi.component.css']
 })
-export class MultiComponent implements OnInit {
+export class MultiComponent{
 
   constructor() { }
-
-  ngOnInit() {
-  }
 
 }

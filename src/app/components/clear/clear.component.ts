@@ -5,11 +5,8 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './clear.component.html',
   styleUrls: ['./clear.component.css']
 })
-export class ClearComponent implements OnInit {
+export class ClearComponent{
 
   constructor() { }
     
-  ngOnInit() {
-  }
-
 }
