@@ -5,11 +5,11 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './suma.component.html',
   styleUrls: ['./suma.component.css']
 })
-export class SumaComponent implements OnInit {
+export class SumaComponent {
 
-  constructor() { }
+  constructor() {}
 
-  ngOnInit() {
-  }
+  numero: number = 5600;
+
 
 }

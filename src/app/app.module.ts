@@ -1,13 +1,17 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
+// Rutas
 import { AppRoutingModule } from './app-routing.module';
+// Componentes
 import { AppComponent } from './app.component';
 import { SumaComponent } from './components/suma/suma.component';
 import { HeaderComponent } from './components/header/header.component';
 import { MultiComponent } from './components/multi/multi.component';
 import { ClearComponent } from './components/clear/clear.component';
 import { HelloComponent } from './components/hello/hello.component';
+import { ContadoresComponent } from './components/contadores/contadores.component';
+
+
 
 @NgModule({
   declarations: [
@@ -16,7 +20,8 @@ import { HelloComponent } from './components/hello/hello.component';
     HeaderComponent,
     MultiComponent,
     ClearComponent,
-    HelloComponent
+    HelloComponent,
+    ContadoresComponent
   ],
   imports: [
     BrowserModule,

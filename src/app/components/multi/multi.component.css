@@ -37,3 +37,15 @@
         grid-gap: 15px;
     }
   }
+
+#multi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#divi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
