@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-suma',
@@ -9,6 +9,6 @@ export class SumaComponent {
 
   constructor() {}
 
-  numero: number = 5600;
+  //numero: number = 5600;
 
 }

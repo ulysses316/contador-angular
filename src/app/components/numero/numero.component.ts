@@ -1,14 +1,13 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-numero',
-  templateUrl: './numero.component.html',
-  styleUrls: ['./numero.component.css']
+  template: '{{numeroPadre}}'
 })
 export class NumeroComponent{
 
-  constructor() { }
+  @Input() numeroPadre: number;
 
-  numero: number = 56;
+  constructor() {}
 
 }
