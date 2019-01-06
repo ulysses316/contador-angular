@@ -10,6 +10,7 @@ import { MultiComponent } from './components/multi/multi.component';
 import { ClearComponent } from './components/clear/clear.component';
 import { HelloComponent } from './components/hello/hello.component';
 import { ContadoresComponent } from './components/contadores/contadores.component';
+import { NumeroComponent } from './components/numero/numero.component';
 
 
 
@@ -21,7 +22,8 @@ import { ContadoresComponent } from './components/contadores/contadores.componen
     MultiComponent,
     ClearComponent,
     HelloComponent,
-    ContadoresComponent
+    ContadoresComponent,
+    NumeroComponent
   ],
   imports: [
     BrowserModule,
